@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Mangaluru",
+    "lat": "11.295",
+    "long": "79.639",
+    "temperature": "34",
+    "humidity": "60%"
+  },
+  {
+    "name": "Mumbai",
+    "lat": "13.965",
+    "long": "75.596",
+    "temperature": "32",
+    "humidity": "22%"
+  }
+]

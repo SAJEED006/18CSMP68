@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper_login"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="Signup Activity"
+        android:textColor="#5E35B1"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/usr"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Username:"
+        android:inputType="textPersonName"
+        android:textColorHint="#5E35B1"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/psw"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Password:"
+        android:inputType="textPassword"
+        android:textColorHint="#5E35B1"
+        app:layout_constraintEnd_toEndOf="@+id/usr"
+        app:layout_constraintStart_toStartOf="@+id/usr"
+        app:layout_constraintTop_toBottomOf="@+id/usr" />
+
+    <Button
+        android:id="@+id/butsgnlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="SIGN UP"
+        app:backgroundTint="#5E35B1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/psw"
+        app:layout_constraintStart_toStartOf="@+id/psw"
+        app:layout_constraintTop_toBottomOf="@+id/psw"
+        app:layout_constraintVertical_bias="0.058" />
+</androidx.constraintlayout.widget.ConstraintLayout>
